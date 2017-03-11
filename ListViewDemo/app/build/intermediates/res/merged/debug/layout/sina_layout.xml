@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <ImageView 
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_launcher"
+            />
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            >
+            <TextView 
+           		android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="读书语录"
+                android:textSize="20sp"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="04-22 17:00"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="如果我们能够勇敢地爱，勇敢地去原谅，能慷慨地因为别人的幸福而快乐，能够聪明地知道我们周围有足够的爱，那么我们就完成其他生灵从未知道的完整。——《人生的完整》"
+        />
+
+</LinearLayout>
