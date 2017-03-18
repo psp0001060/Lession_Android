@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+    <person age="18" gender="Man" password="123">Jack</person>
+    <person age="19" gender="Woman" password="456">Rose</person>
+    <person age="20" gender="Man" password="256">Wolf</person>
+    <person age="17" gender="Woman" password="592">Mary</person>
+</persons>
