@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center|bottom"
+        android:background="#00FF00"
+        android:text="@string/app_name"
+        />
+
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="bottom|left"
+        android:gravity="left|top"
+        android:background="#FF0000"
+        android:text="@string/app_hello"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/tangyan"
+        />
+</LinearLayout>  

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StringDemo</string>
+    <string name="long_txt">A：请介绍你的项目/能介绍你的项目吗？B：请允许我介绍项目。在中软学习期间做的项目有：赛马小项目、会议管理系统和校园学生宿舍管理系统。</string>
+</resources>
